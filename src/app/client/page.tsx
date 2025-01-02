@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Loader from "../components/loader/page";
 import { motion } from "framer-motion";
-
+export const dynamic = "force-dynamic"
 interface IProduct {
   id: number;
   title: string;
